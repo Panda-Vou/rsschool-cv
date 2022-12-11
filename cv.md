@@ -27,4 +27,15 @@ function multiply(a, b){
 ```
 *does not execute properly. Try to figure out why.*
 
+*__Solution__*
+```
+function multiply(a, b){return a * b}
+```
 
+#### *Education:*
+- *In 2016, graduated with honors from Polotsk State University with a degree in Management.*
+- *In 2017, received a master's degree in economics.*
+
+#### *Languages:*
+* *English - B1*
+* *French - A1*
