@@ -13,7 +13,8 @@
 }
 
 .footer {
-  border: 1px solid rgb(174, 0, 255);
+  border: 1px solid rgb(199, 209, 209);
+  background: rgb(199, 209, 209);
 }
 
 body {
@@ -135,3 +136,13 @@ b {
 .section-list-skill{
   list-style-type: none;
 }
+
+.container-footer {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  font-family: 'Bitter', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  }
