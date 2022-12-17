@@ -8,12 +8,12 @@
 }
 
 .header {
-  border: 1px solid rgb(199, 33, 33);
-  background: rgba(23, 64, 71, 0.575);
+  border: 1px solid rgb(199, 209, 209);
+  background: rgb(199, 209, 209);
 }
 
 .main {
-  border: 1px solid rgb(102, 255, 0);
+  border: 1px solid rgb(199, 209, 209);
 }
 
 .footer {
@@ -31,7 +31,8 @@ body {
 
 .container {
   max-width: 1440px;
-  margin: 0 auto;
+  display: flex;
+
 }
 
 .nav-list {
@@ -63,13 +64,13 @@ html {
   text-decoration: underline;
 }
 
-.main-container {
-  display: flex;
-  flex-wrap: wrap;
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
-.section {
-  width: 50%;
+.main-container {
+  display: flex;
 }
 
 @media (max-width: 768px) {
@@ -82,12 +83,12 @@ body {
   font-family: 'Bitter', sans-serif;
   font-size: 18px;
   font-weight: 400;
-  line-height: 2;
-  color: #386481;
+  line-height: 1.5;
+  color: #1b4d5c;
 }
 
 .section-title {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -95,28 +96,15 @@ body {
 }
 
 .section-profile {
-  position: relative;
-  padding-left: 32px;
-}
-
-.section-profile::before {
-  position: absolute;
-  top: 8px;
-  left: 0px;
-  width: 10px;
-  height: 10px; 
-  border: 1px solid #000000;
-  border-radius: 50%;
-}
-
-#profile {
+  position: relative;  
   width: 30%;
   box-sizing:border-box;
   text-align: center;
 }
 
 #name {
-  font-size: 40px; font-weight: bold;
+  font-size: 40px; 
+  font-weight: bold;
   margin-top: 10px; 
   margin-bottom:15px;
   line-height: 50px;
@@ -128,3 +116,24 @@ body {
   border: 3px solid #1b4d5c;
 }
 
+.section-list {
+  color: #85581e;
+  padding: auto;
+  line-height: 1.5;
+}
+.left {
+  background-color: rgb(199, 209, 209);
+  width: 40%;
+}
+
+#profile {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+b {
+  color: #1b4d5c;
+}
