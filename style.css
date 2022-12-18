@@ -3,6 +3,10 @@
   src: url("assets/fonts/Bitter-VariableFont_wght.ttf");
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .header {
   background: rgb(199, 209, 209);
   max-width: 1440px;
