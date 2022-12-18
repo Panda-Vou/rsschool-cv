@@ -146,3 +146,9 @@ b {
   text-align: center;
   font-weight: bold;
   }
+
+ hr {
+  border: none;
+  background-color: #85581e;
+  height: 8px;
+  }
