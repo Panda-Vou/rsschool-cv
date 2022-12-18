@@ -63,12 +63,6 @@ html {
   border-right: 40px solid rgb(199, 209, 209);
 }
 
-@media (max-width: 768px) {
-  body {
-    width: 100%;
-  }
-}
-
 body {
   font-family: 'Bitter', sans-serif;
   font-size: 18px;
@@ -151,4 +145,10 @@ b {
   background-color: #85581e;
   color: #85581e;
   height: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
   }
