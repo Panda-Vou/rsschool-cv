@@ -23,7 +23,6 @@
 }
 
 body {
-  box-sizing: border-box;
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -65,7 +64,7 @@ html {
 }
 
 @media (max-width: 768px) {
-  .section {
+  body {
     width: 100%;
   }
 }
