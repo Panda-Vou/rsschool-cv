@@ -15,6 +15,11 @@
   border-right: 40px solid rgb(199, 209, 209);
 }
 
+.main {
+  max-width: 1440px;
+  margin: auto;
+}
+
 .footer {
   background: rgb(199, 209, 209);
   max-width: 1440px;
@@ -65,6 +70,7 @@ html {
 
 body {
   font-family: 'Bitter', sans-serif;
+
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
@@ -146,7 +152,7 @@ b {
   color: #85581e;
   height: 5px;
   }
-  
+
   @media (max-width: 768px) {
     .section {
       width: 100%;
