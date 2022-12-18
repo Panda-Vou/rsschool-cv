@@ -1,0 +1,146 @@
+@font-face {
+  font-family: Bitter;
+  src: url("assets/fonts/Bitter-VariableFont_wght.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+  min-height: 100vh;
+  margin: 0; 
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Bitter;
+  line-height: 1.5;
+  font-size: 20px;
+  color: #664417;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  letter-spacing: 1.5px;
+}
+
+.header {
+  background: rgb(199, 209, 209);
+}
+
+.nav-list {    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0px;
+  padding: 10px;
+  font-weight: bold;
+  }
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 70px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 1px;
+  color: #85581e;
+  transition: color 3s;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #f0f2f3;
+}
+
+.main {
+  display: flex;
+}
+
+.left {
+  width: 35%;
+  padding: 10px;
+  background:rgb(199, 209, 209);
+}
+
+.photo {
+  border: 3px solid #1b4d5c;
+}
+
+#profile {
+  padding-top: 10px;
+  text-align: center;
+}
+
+#name {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #1b4d5c;
+}
+
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #35749e;
+  color: #1b4d5c;
+}
+
+b {
+  color: #35749e;
+}
+
+.right {
+  width: 65%;
+  padding: 15px;
+  border-right: 20px solid rgb(199, 209, 209);;
+}
+
+h3 {
+  color: #35749e;
+}
+
+.section-list-skill{
+  list-style: none;
+}
+
+pre{
+  margin-left: -300px  
+}
+
+.section-projects {   
+  line-height: 70px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1px;
+  color: #85581e;
+  transition: color 3s;
+}
+
+.section-projects:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #103c52;
+}
+
+.container-footer {
+  display: flex;
+  justify-content:space-around;
+  padding: 10px;
+  background: rgb(199, 209, 209);
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
