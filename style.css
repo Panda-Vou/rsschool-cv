@@ -4,17 +4,18 @@
 }
 
 .header {
-  border: 1px solid rgb(199, 209, 209);
   background: rgb(199, 209, 209);
-}
-
-.main {
-  border: 1px solid rgb(199, 209, 209);
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-content: flex-end;
+  border-right:40px solid rgb(199, 209, 209);
 }
 
 .footer {
-  border: 1px solid rgb(199, 209, 209);
   background: rgb(199, 209, 209);
+  max-width: 1440px;
+  margin: auto;
+  border-right:40px solid rgb(199, 209, 209);
 }
 
 body {
@@ -56,6 +57,7 @@ html {
   margin: 0 auto;
   display: flex;
   justify-content:flex-end;
+  border-right:40px solid rgb(199, 209, 209);
 }
 
 @media (max-width: 768px) {
@@ -109,8 +111,6 @@ body {
 .left {
   background-color: rgb(199, 209, 209);
   position: relative;
-
-
 }
 
 #profile {
@@ -140,11 +140,7 @@ b {
 .container-footer {
   box-sizing: border-box;
   display: flex;
-  flex-direction: row;
-  justify-content:space-between;
-  font-family: 'Bitter', sans-serif;
-  text-align: center;
-  font-weight: bold;
+  justify-content:space-around;
   }
 
  hr {
